@@ -100,7 +100,7 @@ def message_handler(message):
         except Exception as err:
             BOT.reply_to(message, err)
     elif text in ['/repo']:
-        BOT.reply_to(message, "Join Group\n\nJoin Group\n\n https://t.me/malluinstaufollowers")
+        BOT.reply_to(message, "Join Group\n\nJoin Group For Repo\n\n https://t.me/malluinstaufollowers")
 
 @BOT.callback_query_handler(func=lambda call:True)
 def query_handler(call):
